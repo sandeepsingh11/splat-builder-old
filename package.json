@@ -3,7 +3,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "fe": "cd ./resources/sveltekit/ && npm run dev"
+        "app": "cd ./resources/sveltekit/ && npm run dev",
+        "params": "node scripts/process-params.js"
     },
     "devDependencies": {
         "axios": "^1.1.2",
