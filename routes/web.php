@@ -18,3 +18,7 @@ Route::get('/api/test', function () {
         'message'=> 'Success!'
     ];
 });
+
+Route::get('/api/get-param', function () {
+    return asset('storage/parsed-params-210.json');
+});
